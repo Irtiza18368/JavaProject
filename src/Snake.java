@@ -1,6 +1,4 @@
 import javax.swing.JFrame;
-import javax.swing.JPanel;
-import java.awt.Color;
 
 
 class Window extends JFrame{
@@ -13,9 +11,6 @@ class Window extends JFrame{
         setLocationRelativeTo(null);
         setResizable(false);
 
-        JPanel contentPane = new JPanel();
-        contentPane.setBackground(Color.BLACK);
-        setContentPane(contentPane);
     }
 
     public static void main(String[] args) {
